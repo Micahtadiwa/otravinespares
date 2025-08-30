@@ -5,7 +5,7 @@ import Contact from "./assets/Contact/Contact";
 import Services from "./assets/Services/Services";
 import About from "./assets/About/About";
 import Testimonial from "./assets/Testimonials/Testimonial";
-import { Routes, Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
     return (
