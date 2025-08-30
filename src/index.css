@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Redressed&family=WDXL+Lubrifont+TC&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Redressed", cursive;  
+
+  
+}
+body{
+  color: white;
+  
+}
+.background{
+  background-color: black;
+}
+.btn{
+  background: white;
+  color: black;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.btn img{
+  width: 20px;
+  margin-left: 10px;
+}
+
+.btn .dark-btn{
+  background: black;
+  color: white;
+}
+
