@@ -11,18 +11,13 @@ function App() {
     return (
         <div className="background">
             <Header />
-            <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/Services' element={<Services />} />
-                <Route path='/About' element={<About />} />
-                 <Route path='/Testimonial' element={<Testimonial/>} />
-                <Route path='/Contact' element={<Contact />} />
-            </Routes>
-
-
+            <Home />
+            <Services />
+            <About />
+            <Testimonial />
+            <Contact />
             <Footer />
         </div>
-
     );
 }
 export default App
